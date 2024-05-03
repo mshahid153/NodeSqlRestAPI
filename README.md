@@ -152,5 +152,35 @@ http://localhost:3000/api/posts/allPosts
 ```bash
     http://localhost:3000/api/posts/allPosts?page=1&pageRange=3
 ```
+## Retrieve by specific post
 
+- **Endpoint:** `/:postId`
+- **Method:** GET
+- **Description:** Retrieves the post by id.
+
+```bash
+    http://localhost:3000/api/posts/1
+```
+
+## Update a Post
+
+- **Endpoint:** `/:postId`
+- **Method:** PUT
+- **Description:** Updates an existing post in the database
+
+change which data you want to change in body
+
+```bash
+    http://localhost:3000/api/posts/1
+```
+
+## Delete a Post
+
+- **Endpoint:** `/:postId`
+- **Method:** PUT
+- **Description:** Updates an existing post in the database
+
+```bash
+    http://localhost:3000/api/posts/1
+```
 

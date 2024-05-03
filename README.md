@@ -177,7 +177,7 @@ change which data you want to change in body
 ## Delete a Post
 
 - **Endpoint:** `/:postId`
-- **Method:** PUT
+- **Method:** DELETE
 - **Description:** Updates an existing post in the database
 
 ```bash
